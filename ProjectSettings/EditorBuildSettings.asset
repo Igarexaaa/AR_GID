@@ -14,11 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 0c158cf4b1ffe174eb793190d0ddc271
-  - enabled: 0
-    path: Assets/Scenes/Menu 1.unity
-    guid: d4ebfb91030f0f34289e721fff5a719c
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 39981f65e01ce794da05c8b3676724b5,
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 88bd621647b53144797ea076541dfd56,
+      type: 2}
+    com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: 864e0db2ae2f64b4e93c275ff5703401,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dd648d0d9fed89247acef8cfb819be80,
       type: 2}
