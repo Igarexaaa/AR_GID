@@ -57,6 +57,7 @@ public class PlacementController : MonoBehaviour
             var hitPose = hits[0].pose;
             placedPrefab.transform.position = hitPose.position;
             placedPrefab.transform.rotation = Quaternion.Euler(hitPose.rotation.eulerAngles.x, hitPose.rotation.eulerAngles.y - 180, hitPose.rotation.eulerAngles.z);
+            placedPrefab.GetComponent<AudioSource>().enabled = true;
         }
     }
 
